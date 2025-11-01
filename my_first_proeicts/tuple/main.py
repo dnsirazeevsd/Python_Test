@@ -1,4 +1,5 @@
-user_roles = ("admin", "admin", "admin")
+user_roles = ("admin", "me")
 
-for role in user_roles:
-    print(type(user_roles))
+user_roles[0] = "sadas"
+
+print(user_roles)
