@@ -21,6 +21,3 @@ print()
 
 for item in person_2.values():
     print(item)
-
-print()
-
