@@ -1,6 +1,9 @@
 text = "  Hello, hello! QA, QA. Test.  "
 
-def analyze_text(text) -> list:
+
+def analyze_text(text: str) -> dict:
+    
+
 
 
 #len()
