@@ -1,14 +1,18 @@
-count_total = 0
-count_error = 0
+list_ref = []
+index_total_ref = 0
+index = 1
 
-result_list = []
+# Чтение и фильтрация строк
+with open("logs.txt", "r", encoding="utf-8") as file:
+    for item in file:
+        if ".m3u8" in item:
+            list_ref.append(item.lower().strip())  # убираем лишние пробелы
+            index_total_ref += 1
 
-with open("logs.txt", "r", encoding="utf=8") as file:
-    for line in file:
-        count_total += 1
-        if line.find("ERROR") != -1:
-            result_list.append(line.upper().strip())
-            count_error += 1
+with open("result.txt", "w", encoding="utf=8") as file:
+    for item in list_ref:
+        file.write(f"{index} -> {item}\n")
+        index += 1
 
-with open("report.txt", "w", encoding="utf-8") as file:
-    file.write(f"Всего строк: {count_total} \nСтрок с ошибками:{count_error}")
+print(f"Total -> {index_total_ref}")
+
