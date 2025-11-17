@@ -1,0 +1,9 @@
+{
+  "username": "Alice",
+  "theme": "dark",
+  "volume": 80,
+  "achievements": [
+    "first_win",
+    "100_points"
+  ]
+}
