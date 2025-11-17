@@ -1,54 +1,62 @@
-{
-  "tasks": [
-    {
-      "id": 1,
-      "title": "Учить JSON",
-      "done": true
-    },
-    {
-      "id": 2,
-      "title": "Сделать функции",
-      "done": true
-    },
-    {
-      "id": 3,
-      "title": "Написать парсер логов",
-      "done": true
-    },
-    {
-      "id": 4,
-      "title": "Пройти урок по словарям",
-      "done": true
-    },
-    {
-      "id": 5,
-      "title": "Сделать TODO приложение",
-      "done": true
-    },
-    {
-      "id": 6,
-      "title": "Потренироваться с файлами",
-      "done": true
-    },
-    {
-      "id": 7,
-      "title": "Разобраться в split",
-      "done": false
-    },
-    {
-      "id": 8,
-      "title": "Повторить list comprehensions",
-      "done": true
-    },
-    {
-      "id": 9,
-      "title": "Прочитать про сериализацию",
-      "done": true
-    },
-    {
-      "id": 10,
-      "title": "Потренировать json.dump()",
-      "done": true
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "name": "Alice",
+    "age": 25,
+    "role": "user"
+  },
+  {
+    "id": 2,
+    "name": "Bob",
+    "age": 30,
+    "role": "admin"
+  },
+  {
+    "id": 3,
+    "name": "Charlie",
+    "age": 10,
+    "role": "user"
+  },
+  {
+    "id": 4,
+    "name": "David",
+    "age": 28,
+    "role": "moderator"
+  },
+  {
+    "id": 5,
+    "name": "Eve",
+    "age": 35,
+    "role": "user"
+  },
+  {
+    "id": 6,
+    "name": "Frank",
+    "age": 27,
+    "role": "user"
+  },
+  {
+    "id": 7,
+    "name": "Grace",
+    "age": 24,
+    "role": "admin"
+  },
+  {
+    "id": 8,
+    "name": "Hannah",
+    "age": 29,
+    "role": "user"
+  },
+  {
+    "id": 9,
+    "name": "Ivan",
+    "age": 31,
+    "role": "moderator"
+  },
+  {
+    "id": 10,
+    "name": "Judy",
+    "age": 26,
+    "role": "user"
+  }
+]
