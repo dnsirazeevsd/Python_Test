@@ -1,0 +1,5 @@
+2025-11-19 08:12:05 WARNING Low disk space on drive C:
+2025-11-19 08:12:15 ERROR Failed to connect to database
+2025-11-19 08:12:25 WARNING High memory usage detected
+2025-11-19 08:12:35 ERROR Could not send email notification
+Total ERROR or WARNING -> 4

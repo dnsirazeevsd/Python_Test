@@ -1,0 +1,9 @@
+2025-11-19 08:12:01 INFO Starting application
+2025-11-19 08:12:05 WARNING Low disk space on drive C:
+2025-11-19 08:12:10 INFO User logged in: Alice
+2025-11-19 08:12:15 ERROR Failed to connect to database
+2025-11-19 08:12:20 INFO Scheduled task executed
+2025-11-19 08:12:25 WARNING High memory usage detected
+2025-11-19 08:12:30 INFO User logged out: Bob
+2025-11-19 08:12:35 ERROR Could not send email notification
+2025-11-19 08:12:40 INFO Shutdown initiated
